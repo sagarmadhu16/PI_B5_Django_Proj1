@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="{%static 'css/my_style.css'%}">
+  </head>
+  <body>
+    <h1>Registration Page</h1>
+    <form class="" action="index.html" method="post">
+      Name : <input type="text" name="" value="" placeholder="Enter Your Name">
+      <br>
+      Age : <input type="text" name="" value="" placeholder="Enter Your Age">
+      <br>
+      <label for="Name">Gender :</label>
+      <label for="Male"> Male </label>
+      <input type="radio" name="Gender" id="Male" value="Male">
+      <label for="Female"> Female </label>
+      <input type="radio" name="Gender" id="Female" value="Female">
+      <br>
+      E-Mail : <input type="text" name="" value=""placeholder="Enter Your E-mail Id">
+      <br>
+      Mobile No : <input type="text" name="" value="" placeholder="Enter Your Mobile Number">
+        <br>
+        <button type="button" name="button">Submit</button>
+    </form>
+    <br>
+    <h2>{{insert_me}}</h2>
+
+  <br>
+  <img src="{%static 'Images/hope.jpg'%}" alt="Sorry Image could not be found">
+  </body>
+</html>
+
